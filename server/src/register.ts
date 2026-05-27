@@ -1,8 +1,6 @@
-import type { Core } from '@strapi/strapi';
 import * as pckg from '../../package.json';
 
-const register = ({ strapi }: { strapi: Core.Strapi }) => {
-  // register phase
+const register = ({ strapi }: { strapi: any }) => {
   strapi.customFields.register({
     name: 'json-function',
     plugin: pckg.strapi.name,

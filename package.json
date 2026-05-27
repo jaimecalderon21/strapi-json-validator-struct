@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.4",
   "keywords": [],
   "type": "commonjs",
   "exports": {
@@ -35,8 +35,6 @@
   "dependencies": {
     "@strapi/design-system": "^2.0.0-rc.30",
     "@strapi/icons": "^2.0.0-rc.30",
-    "google-libphonenumber": "^3.2.43",
-    "react-international-phone": "^4.6.0",
     "react-intl": "^7.1.11"
   },
   "devDependencies": {
@@ -50,7 +48,6 @@
     "@strapi/sdk-plugin": "^5.3.2",
     "@strapi/strapi": "^5.25.0",
     "@strapi/typescript-utils": "^5.25.0",
-    "@types/google-libphonenumber": "^7.4.30",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "prettier": "^3.6.2",
@@ -79,23 +76,21 @@
   "description": "Strapi JSON Validator is a powerful and easy-to-use plugin designed to validate JSON data in various formats. With support for complex JSON structures, it offers comprehensive validation to ensure the accuracy of user-provided JSON data in your applications.",
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaimecalderon21/strapi-json-validator-struct.git"
+    "url": "git+https://github.com/jaimecalderon21/strapi-json-validator-struct.git"
   },
   "bugs": {
     "url": "https://github.com/jaimecalderon21/strapi-json-validator-struct.git/issues"
   },
   "homepage": "https://github.com/jaimecalderon21/strapi-json-validator-struct",
   "author": {
-    "name": "Hadjiu Sorin",
-    "email": "hadjiu.sorin@gmail.com",
-    "url": "https://github.com/shadjiu"
+    "name": "Jaime Calderón",
+    "email": "jaimebcyt@gmail.com"
   }
 }
