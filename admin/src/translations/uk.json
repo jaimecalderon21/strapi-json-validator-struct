@@ -1,9 +1,9 @@
 {
-  "strapi-phone-validator-5.form.attribute.item.error": "Невірна структура JSON",
-  "strapi-phone-validator-5.form.attribute.item.privateField": "Приватне поле",
-  "strapi-phone-validator-5.form.attribute.item.privateField.description": "Це поле не буде відображатися у відповіді API",
-  "strapi-phone-validator-5.form.attribute.item.requiredField": "Обов'язкове поле",
-  "strapi-phone-validator-5.form.attribute.item.requiredField.description": "Ви не зможете створити запис, якщо це поле порожнє",
-  "strapi-phone-validator-5.input.description": "Валідатор імені функції JSON",
-  "strapi-phone-validator-5.input.label": "JSON Function"
+  "strapi-json-validator.form.attribute.item.error": "Невірна структура JSON",
+  "strapi-json-validator.form.attribute.item.privateField": "Приватне поле",
+  "strapi-json-validator.form.attribute.item.privateField.description": "Це поле не буде відображатися у відповіді API",
+  "strapi-json-validator.form.attribute.item.requiredField": "Обов'язкове поле",
+  "strapi-json-validator.form.attribute.item.requiredField.description": "Ви не зможете створити запис, якщо це поле порожнє",
+  "strapi-json-validator.input.description": "Валідатор імені функції JSON",
+  "strapi-json-validator.input.label": "JSON Function"
 }

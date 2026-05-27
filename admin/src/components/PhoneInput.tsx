@@ -31,7 +31,7 @@ const StyledTextareaWrapper = styled.div<{ $hasError: boolean }>`
   }
 `;
 
-const PLUGIN_ID = 'strapi-phone-validator-5';
+const PLUGIN_ID = 'strapi-json-validator';
 
 interface ValidationResult {
   valid: boolean;

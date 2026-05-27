@@ -1,9 +1,9 @@
 {
-  "strapi-phone-validator-5.form.attribute.item.error": "Geçersiz JSON yapısı",
-  "strapi-phone-validator-5.form.attribute.item.privateField": "Özel alan",
-  "strapi-phone-validator-5.form.attribute.item.privateField.description": "Bu alan API yanıtında gösterilmez",
-  "strapi-phone-validator-5.form.attribute.item.requiredField": "Zorunlu alan",
-  "strapi-phone-validator-5.form.attribute.item.requiredField.description": "Bu alan boşsa bir kayıt oluşturamazsınız",
-  "strapi-phone-validator-5.input.description": "JSON işlev adı doğrulayıcı",
-  "strapi-phone-validator-5.input.label": "JSON Function"
+  "strapi-json-validator.form.attribute.item.error": "Geçersiz JSON yapısı",
+  "strapi-json-validator.form.attribute.item.privateField": "Özel alan",
+  "strapi-json-validator.form.attribute.item.privateField.description": "Bu alan API yanıtında gösterilmez",
+  "strapi-json-validator.form.attribute.item.requiredField": "Zorunlu alan",
+  "strapi-json-validator.form.attribute.item.requiredField.description": "Bu alan boşsa bir kayıt oluşturamazsınız",
+  "strapi-json-validator.input.description": "JSON işlev adı doğrulayıcı",
+  "strapi-json-validator.input.label": "JSON Function"
 }
