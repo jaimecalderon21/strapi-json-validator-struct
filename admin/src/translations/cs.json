@@ -1,0 +1,9 @@
+{
+  "strapi-phone-validator-5.form.attribute.item.error": "Neplatná struktura JSON",
+  "strapi-phone-validator-5.form.attribute.item.privateField": "Soukromé pole",
+  "strapi-phone-validator-5.form.attribute.item.privateField.description": "Toto pole se nezobrazí v odpovědi API",
+  "strapi-phone-validator-5.form.attribute.item.requiredField": "Povinné pole",
+  "strapi-phone-validator-5.form.attribute.item.requiredField.description": "Záznam nepůjde vytvořit, pokud toto pole zůstane prázdné",
+  "strapi-phone-validator-5.input.description": "Validátor názvu JSON funkce",
+  "strapi-phone-validator-5.input.label": "JSON Function"
+}

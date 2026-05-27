@@ -1,0 +1,9 @@
+{
+  "strapi-phone-validator-5.form.attribute.item.error": "无效的 JSON 结构",
+  "strapi-phone-validator-5.form.attribute.item.privateField": "私有字段",
+  "strapi-phone-validator-5.form.attribute.item.privateField.description": "此字段不会显示在 API 响应中",
+  "strapi-phone-validator-5.form.attribute.item.requiredField": "必填字段",
+  "strapi-phone-validator-5.form.attribute.item.requiredField.description": "如果此字段为空，则无法创建条目",
+  "strapi-phone-validator-5.input.description": "JSON 函数名称验证器",
+  "strapi-phone-validator-5.input.label": "JSON Function"
+}

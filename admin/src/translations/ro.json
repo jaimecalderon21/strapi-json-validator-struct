@@ -1,0 +1,9 @@
+{
+  "strapi-phone-validator-5.form.attribute.item.error": "Structură JSON invalidă",
+  "strapi-phone-validator-5.form.attribute.item.privateField": "Câmp privat",
+  "strapi-phone-validator-5.form.attribute.item.privateField.description": "Acest câmp nu va apărea în răspunsul API",
+  "strapi-phone-validator-5.form.attribute.item.requiredField": "Câmp obligatoriu",
+  "strapi-phone-validator-5.form.attribute.item.requiredField.description": "Nu vei putea crea o înregistrare dacă acest câmp este gol",
+  "strapi-phone-validator-5.input.description": "Validator nume funcție JSON",
+  "strapi-phone-validator-5.input.label": "JSON Function"
+}

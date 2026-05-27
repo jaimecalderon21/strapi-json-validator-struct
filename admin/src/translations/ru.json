@@ -1,0 +1,9 @@
+{
+  "strapi-phone-validator-5.form.attribute.item.error": "Неверная структура JSON",
+  "strapi-phone-validator-5.form.attribute.item.privateField": "Приватное поле",
+  "strapi-phone-validator-5.form.attribute.item.privateField.description": "Это поле не будет отображаться в ответе API",
+  "strapi-phone-validator-5.form.attribute.item.requiredField": "Обязательное поле",
+  "strapi-phone-validator-5.form.attribute.item.requiredField.description": "Вы не сможете создать запись, если это поле пустое",
+  "strapi-phone-validator-5.input.description": "Валидатор имени функции JSON",
+  "strapi-phone-validator-5.input.label": "JSON Function"
+}

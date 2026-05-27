@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "keywords": [],
+  "type": "commonjs",
+  "exports": {
+    "./package.json": "./package.json",
+    "./strapi-admin": {
+      "types": "./dist/admin/src/index.d.ts",
+      "source": "./admin/src/index.ts",
+      "import": "./dist/admin/index.mjs",
+      "require": "./dist/admin/index.js",
+      "default": "./dist/admin/index.js"
+    },
+    "./strapi-server": {
+      "types": "./dist/server/src/index.d.ts",
+      "source": "./server/src/index.ts",
+      "import": "./dist/server/index.mjs",
+      "require": "./dist/server/index.js",
+      "default": "./dist/server/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "strapi-plugin build",
+    "watch": "strapi-plugin watch",
+    "watch:link": "strapi-plugin watch:link",
+    "verify": "strapi-plugin verify",
+    "test:ts:front": "run -T tsc -p admin/tsconfig.json",
+    "test:ts:back": "run -T tsc -p server/tsconfig.json"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^2.0.0-rc.30",
+    "@strapi/icons": "^2.0.0-rc.30",
+    "google-libphonenumber": "^3.2.43",
+    "react-international-phone": "^4.6.0",
+    "react-intl": "^7.1.11"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/exec": "^7.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
+    "@semantic-release/npm": "^12.0.2",
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "@strapi/sdk-plugin": "^5.3.2",
+    "@strapi/strapi": "^5.25.0",
+    "@strapi/typescript-utils": "^5.25.0",
+    "@types/google-libphonenumber": "^7.4.30",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "prettier": "^3.6.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "semantic-release": "^24.2.9",
+    "styled-components": "^6.1.19",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@strapi/sdk-plugin": "^5.3.2",
+    "@strapi/strapi": "^5.25.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "styled-components": "^6.1.19"
+  },
+  "strapi": {
+    "kind": "plugin",
+    "name": "strapi-json-validator",
+    "displayName": "JSON Validator",
+    "description": "Strapi JSON Validator is a powerful and easy-to-use plugin designed to validate JSON data in various formats. With support for complex JSON structures, it offers comprehensive validation to ensure the accuracy of user-provided JSON data in your applications."
+  },
+  "name": "strapi-json-validator",
+  "description": "Strapi JSON Validator is a powerful and easy-to-use plugin designed to validate JSON data in various formats. With support for complex JSON structures, it offers comprehensive validation to ensure the accuracy of user-provided JSON data in your applications.",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaimecalderon21/strapi-json-validator-struct.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaimecalderon21/strapi-json-validator-struct.git/issues"
+  },
+  "homepage": "https://github.com/jaimecalderon21/strapi-json-validator-struct",
+  "author": {
+    "name": "Hadjiu Sorin",
+    "email": "hadjiu.sorin@gmail.com",
+    "url": "https://github.com/shadjiu"
+  }
+}

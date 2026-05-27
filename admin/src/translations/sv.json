@@ -1,0 +1,9 @@
+{
+  "strapi-phone-validator-5.form.attribute.item.error": "Ogiltig JSON-struktur",
+  "strapi-phone-validator-5.form.attribute.item.privateField": "Privat fält",
+  "strapi-phone-validator-5.form.attribute.item.privateField.description": "Detta fält visas inte i API-svaret",
+  "strapi-phone-validator-5.form.attribute.item.requiredField": "Obligatoriskt fält",
+  "strapi-phone-validator-5.form.attribute.item.requiredField.description": "Du kan inte skapa en post om detta fält är tomt",
+  "strapi-phone-validator-5.input.description": "JSON-funktionsnamnsvaliderare",
+  "strapi-phone-validator-5.input.label": "JSON Function"
+}

@@ -1,0 +1,9 @@
+{
+  "strapi-phone-validator-5.form.attribute.item.error": "Invalid JSON structure",
+  "strapi-phone-validator-5.form.attribute.item.privateField": "Private field",
+  "strapi-phone-validator-5.form.attribute.item.privateField.description": "This field will not show up in the API response",
+  "strapi-phone-validator-5.form.attribute.item.requiredField": "Required field",
+  "strapi-phone-validator-5.form.attribute.item.requiredField.description": "You won't be able to create an entry if this field is empty",
+  "strapi-phone-validator-5.input.description": "JSON function name validator",
+  "strapi-phone-validator-5.input.label": "JSON Function"
+}
